@@ -1,0 +1,31 @@
+.services {
+  padding-block: 7.5rem;
+}
+.service-title {
+  font-size: 3.4375rem;
+  font-weight: 500;
+  line-height: 110%;
+  color: var(--color-font);
+  max-width: 42.1875rem;
+  margin-block-end: 4rem;
+}
+.services-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.service-card-title {
+  font-family: var(--font-text);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 125%;
+  padding-block: 30px;
+}
+.service-card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-weight: 400;
+  color: var(--color-font);
+}
