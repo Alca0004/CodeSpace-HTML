@@ -1,13 +1,16 @@
+/* Settings */
+@import url("../settings/variables.css");
 /* Generic */
 @import url("../generic/reset.css");
 @import url("../generic/layout.css");
 /* Elements */
-/* Settings */
-@import url("../settings/variables.css");
 @import url("/elements/header.css");
 @import url("../elements/hero-banner.css");
 @import url("../elements/our-menu.css");
 @import url("../elements/about-us.css");
 @import url("../elements/services.css");
+@import url("../elements/delivery.css");
+@import url("../elements/opinions.css");
+@import url("../elements/blog.css");
 /* Components */
 @import url("../components/buttons.css");

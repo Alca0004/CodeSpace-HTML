@@ -1,0 +1,61 @@
+.opinions {
+  padding-block: 6.25rem;
+}
+.opinion-title {
+  color: var(--color-font);
+  text-align: center;
+  font-size: 3.4375rem;
+  font-weight: 500;
+  line-height: 110%;
+  margin-block-end: 4rem;
+}
+.opinions-cards {
+  display: flex;
+  gap: 24px;
+}
+.opinions-card {
+  background-color: #f8f9f7;
+  border-radius: 12px;
+  padding: 48px;
+}
+.opinions-card-title {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 125%;
+}
+.opinions-card-description {
+  font-size: 1.125rem;
+  max-width: 65ch;
+  line-height: 155%;
+}
+.opinions-card-description::after {
+  content: "";
+  display: block;
+  height: 0.0625rem;
+  background-color: #dbdbdb;
+  opacity: 0.7;
+  margin-block: 2rem;
+}
+.opinions-card-author {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.opinions-card-author-img {
+  max-width: 70px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.opinions-card-author-name {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  font-family: var(--font-text);
+}
+.opinions-card-author-city {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
