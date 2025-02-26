@@ -1,0 +1,45 @@
+.recipe-content-container {
+  display: flex;
+  gap: 48px;
+  margin-top: 48px;
+  max-width: 1296px;
+  margin-inline: auto;
+  width: 100%;
+}
+.recipe-block {
+  display: flex;
+  padding: var(--Padding-7xl, 88px) 152px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Padding-4xl, 64px);
+  align-self: stretch;
+  background-color: var(--bg-light);
+}
+.recipe-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.recipe-title-main {
+  font-size: 55px;
+  font-family: var(--font-title);
+  text-align: center;
+  font-weight: 500;
+  line-height: 110%;
+}
+.recipe-title-img {
+  width: 100%;
+  height: 741.878px;
+  border-radius: 12px 12px 0 0;
+  background: url("/image/blog-detail-pie.png") center center;
+  background-size: cover;
+  padding: var(--Padding-7xl, 88px) 152px;
+}
+.recipe-content-container {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+}

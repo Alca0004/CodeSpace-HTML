@@ -5,7 +5,7 @@ body {
   background-color: #f9f9f7;
   font-family: var(--font-text);
 }
-h1,
+
 h2,
 h3,
 h4,
@@ -14,9 +14,14 @@ h6 {
   font-family: var(--font-title);
   font-weight: 400;
 }
+h1 {
+  font-style: italic;
+  font-family: var(--font-title);
+}
 .container {
   max-width: 81rem;
   margin: 0 auto;
+  padding-inline: 1rem;
 }
 .bg-white {
   background-color: var(--color-white);

@@ -2,7 +2,7 @@
   display: flex;
   gap: 5.625rem;
   align-items: center;
-  padding-block: 120px;
+  padding-block: 7.5rem;
 }
 .delivery-imgs {
   display: grid;
@@ -70,4 +70,10 @@
 }
 .delivery-points-item:nth-child(3)::before {
   content: url(../image/Icon/clock.svg);
+}
+
+@media (width <= 1280px) {
+  .delivery-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

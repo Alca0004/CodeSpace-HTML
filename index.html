@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
     <title>Bistro Bliss</title>
   </head>
   <body>
@@ -182,7 +185,7 @@
       <!--Section 6 Opinions-->
       <div class="bg-white">
         <section class="opinions container">
-          <h2 class="opinion-title">What Our Customers Say</h2>
+          <h2 class="opinions-title">What Our Customers Say</h2>
           <div class="opinions-cards">
             <article class="opinions-card">
               <h3 class="opinions-card-title">"The best restaurant"</h3>
@@ -267,65 +270,77 @@
       </section>
     </main>
     <!--Footer-->
-    <footer class="footer">
-      <div class="footer-info">
+    <footer id="footer" class="footer">
+      <div class="footer-info container">
         <div class="footer-info-company">
           <div class="logo">
             <img class="logo" src="/image/japanese-food.svg" alt="" />
             <h1>Bistro Bliss</h1>
           </div>
-          <p class="footer-company-info-description"></p>
-          <nav class="top-bar-social">
-            <ul>
+          <p class="footer-company-info-description">In the new era of technology we look a in the future with certainty and pride to for our company and our life.</p>
+          <nav class="top-bar-social-menu">
+            <ul class="top-bar-social-menu">
               <li>
-                <a href="#">Facebook</a>
+                <a href="https://www.facebook.com">
+                  <img src="/image/facebook.svg" alt="Facebook icon" />
+                </a>
               </li>
-            </ul>
-            <ul>
               <li>
-                <a href="#">Twitter</a>
+                <a href="https://www.twitter.com">
+                  <img src="/image/twitter.svg" alt="Twitter icon" />
+                </a>
               </li>
-            </ul>
-            <ul>
               <li>
-                <a href="#">Instagram</a>
+                <a href="https://www.instagram.com">
+                  <img src="/image/instagram.svg" alt="Instagram icon" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.github.com">
+                  <img src="/image/github.svg" alt="Github icon" />
+                </a>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="footer-info-pages">
-          <h3 class="footer-info-page-title">Pages</h3>
-          <ul class="footer-info-pages-menu">
-            <li class="footer-info-pages-menu-item">Home</li>
-            <li class="footer-info-pages-menu-item">About</li>
-            <li class="footer-info-pages-menu-item">Menu</li>
-            <li class="footer-info-pages-menu-item">Pricing</li>
-            <li class="footer-info-pages-menu-item">Blog</li>
-            <li class="footer-info-pages-menu-item">Contact</li>
-            <li class="footer-info-pages-menu-item">Delivery</li>
-          </ul>
+        <div class="footer-info-menus">
+          <div class="footer-info-pages">
+            <h3 class="footer-info-pages-title">Pages</h3>
+            <ul class="footer-info-pages-menu">
+              <li class="footer-info-pages-menu-item">Home</li>
+              <li class="footer-info-pages-menu-item">About</li>
+              <li class="footer-info-pages-menu-item">Menu</li>
+              <li class="footer-info-pages-menu-item">Pricing</li>
+              <li class="footer-info-pages-menu-item">Blog</li>
+              <li class="footer-info-pages-menu-item">Contact</li>
+              <li class="footer-info-pages-menu-item">Delivery</li>
+            </ul>
+          </div>
+          <div class="footer-info-utility">
+            <h3 class="footer-info-utility-title">Utility Pages</h3>
+            <ul class="footer-info-utility-menu">
+              <li class="footer-info-utility-menu-item">Start Here</li>
+              <li class="footer-info-utility-menu-item">Styleguide</li>
+              <li class="footer-info-utility-menu-item">Password Protected</li>
+              <li class="footer-info-utility-menu-item">404 Not Found</li>
+              <li class="footer-info-utility-menu-item">Licenses</li>
+              <li class="footer-info-utility-menu-item">Changelog</li>
+              <li class="footer-info-utility-menu-item">View More</li>
+            </ul>
+          </div>
         </div>
-        <div class="footer-info-utility">
-          <h3 class="footer-info-page-title">Utility Pages</h3>
-          <ul class="footer-info-pages-menu">
-            <li class="footer-info-utility-menu-item">Start Here</li>
-            <li class="footer-info-utility-menu-item">Styleguide</li>
-            <li class="footer-info-utility-menu-item">Password Protected</li>
-            <li class="footer-info-utility-menu-item">404 Not Found</li>
-            <li class="footer-info-utility-menu-item">Licenses</li>
-            <li class="footer-info-utility-menu-item">Changelog</li>
-            <li class="footer-info-utility-menu-item">View More</li>
-          </ul>
-        </div>
+
         <div class="footer-info-instagram">
           <h3 class="footer-info-instagram-title">Follow Us On Instagram</h3>
-          <img src="/image/footer1.jpg" alt="Bowl with egg and cheese" />
-          <img src="/image/footer2.png" alt="French fries with garmin" />
-          <img src="/image/footer3.png" alt="French fries" />
-          <img src="/image/footer4.png" alt="Pancakes" />
+          <div class="footer-info-instagram-grid">
+            <img src="/image/footer1.jpg" alt="Bowl with egg and cheese" />
+            <img src="/image/footer2.png" alt="French fries with garmin" />
+            <img src="/image/footer3.png" alt="French fries" />
+            <img src="/image/footer4.png" alt="Pancakes" />
+          </div>
         </div>
       </div>
-      <p class="footer-copyright">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+      <p class="footer-copyright container">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
     </footer>
   </body>
 </html>

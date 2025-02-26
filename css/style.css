@@ -12,5 +12,11 @@
 @import url("../elements/delivery.css");
 @import url("../elements/opinions.css");
 @import url("../elements/blog.css");
-/* Components */
+@import url("../elements/footer.css");
+/* Recipe (blog-details.html) */
+@import url("../elements/recipe.css");
+@import url("../elements/ingredients.css");
+@import url("../elements/instructions.css");
+@import url("../elements/articles.css");
+/* /* Component */
 @import url("../components/buttons.css");

@@ -1,0 +1,65 @@
+.instructions-section {
+  flex: 2;
+}
+
+.instructions {
+  background-color: var(--bg-light);
+  display: flex;
+  width: 889px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.instructions-title {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.045rem;
+  align-self: stretch;
+}
+
+.instructions-description {
+  font-family: var(--font-text);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  align-self: stretch;
+}
+
+.instruction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  align-self: stretch;
+}
+
+.instruction-item {
+  font-family: var(--font-text);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+.instruction-item strong {
+  font-weight: 700;
+  color: var(--font-title);
+}
+
+.instruction-image {
+  margin-left: -1.25rem;
+  width: 55.5625rem;
+  align-self: center;
+}
+
+.instruction-image img {
+  width: 100%;
+  height: 27.5rem;
+  border-radius: 0.75rem;
+  display: block;
+  object-fit: cover;
+}
