@@ -1,13 +1,9 @@
-.ingredients-section {
-  flex: 1;
-}
-
 .ingredients {
   display: flex;
-  width: 359px;
+  width: 22.4375rem;
   flex-direction: column;
   align-items: flex-start;
-  gap: 48px;
+  gap: 3rem;
 }
 
 .ingredients-title {
@@ -41,33 +37,23 @@
   gap: 1.25rem;
 }
 
-.ingredient-specification2 {
-  padding-block: 3rem;
-  font-family: var(--font-text);
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.875rem;
-  letter-spacing: -0.0375rem;
-}
-
 .ingredients input[type="checkbox"] {
-  appearance: none;
   -webkit-appearance: none;
-  min-width: 28.689px;
-  width: 28.689px;
-  height: 28.689px;
-  flex: 0 0 28.689px;
+  min-width: 1.7931rem;
+  width: 1.7931rem;
+  height: 1.7931rem;
+  flex: 0 0 1.7931rem;
   border-radius: 50%;
-  border: 2px solid var(--color-primary);
+  border: 0.125rem solid var(--color-primary);
   background-color: transparent;
   cursor: pointer;
 }
 
 .ingredients input[type="checkbox"]:checked {
-  padding: 2.391px;
+  padding: 0.1494rem;
   display: flex;
   align-items: flex-start;
-  gap: 11.954px;
+  gap: 0.7471rem;
   flex-shrink: 0;
   background-image: url("/image/Icon/box.svg");
   background-size: 100% 100%;

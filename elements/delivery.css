@@ -55,7 +55,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 30px;
+  width: 1.875rem;
   left: 0;
   z-index: 5;
   background-color: var(--color-primary);
@@ -75,5 +75,8 @@
 @media (width <= 1280px) {
   .delivery-img {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .delivery-description {
+    padding: 0 1.25rem;
   }
 }

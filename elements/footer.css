@@ -12,7 +12,7 @@
 .footer-info {
   display: flex;
   gap: 8.4375rem;
-  margin-block-end: 100px;
+  margin-block-end: 6.25rem;
 }
 .footer-info > div {
   width: 33%;
@@ -40,10 +40,10 @@
 .footer-info-instagram-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+  gap: 0.9375rem;
 }
 .footer-info-instagram-grid img {
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 .footer-copyright {
   padding-block-start: 1.875rem;
@@ -51,8 +51,10 @@
   color: #adb29e;
   text-align: center;
 }
-
-/*Responsive*/
+svg circle {
+  fill: var(--color-primary);
+  fill-opacity: 1;
+}
 @media screen and (max-width: 768px) {
   .footer-info {
     flex-direction: column;

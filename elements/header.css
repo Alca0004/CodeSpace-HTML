@@ -46,3 +46,12 @@
 .menu-list a {
   color: var(--color-secondary);
 }
+
+@media (width <= 1280px) {
+  .delivery-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .delivery-description {
+    padding: 0 1.25rem;
+  }
+}

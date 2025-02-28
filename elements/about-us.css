@@ -1,10 +1,10 @@
 .about-us {
   display: flex;
   align-items: center;
-  padding-block: 120px;
+  padding-block: 7.5rem;
 }
 .about-us-info-image {
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 .about-us > div {
   width: 50%;
@@ -14,20 +14,20 @@
 }
 .about-us-info-box {
   position: absolute;
-  bottom: -50px;
+  bottom: -3.125rem;
   right: 0;
-  max-width: 411px;
+  max-width: 25.6875rem;
   width: 100%;
-  padding: 50px;
-  background-color: var(--color-dark-gray);
-  border-radius: 12px;
+  padding: 3.125rem;
+  background-color: var(--color-dark-grey);
+  border-radius: 0.75rem;
   color: var(--color-white);
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 1.5625rem;
 }
 .about-us-info-box-title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 125%;
 }
@@ -45,26 +45,26 @@
 .about-us-info-box-address {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
   &::before {
     height: 100%;
     aspect-ratio: 1;
   }
 }
 .about-us-text {
-  padding-inline-start: 90px;
+  padding-inline-start: 5.625rem;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.5rem;
 }
 .about-us-title {
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-weight: 500;
   line-height: 125%;
   color: var(--color-font);
 }
 .about-us-desc-main {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   line-height: 155%;
   color: var(--color-font);

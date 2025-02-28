@@ -21,7 +21,7 @@
 .blog-article {
   border-radius: 1rem;
   background-color: var(--color-white, #ffffff);
-  box-shadow: 0px 4px 24.2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0rem 0.25rem 1.5125rem 0rem rgba(0, 0, 0, 0.08);
 }
 .blog-article-image {
   width: 100%;
