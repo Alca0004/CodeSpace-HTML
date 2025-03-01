@@ -72,7 +72,7 @@
   content: url(../image/Icon/clock.svg);
 }
 
-@media (width <= 1280px) {
+@media (width <= 80rem) {
   .delivery-img {
     grid-template-columns: repeat(2, 1fr);
   }

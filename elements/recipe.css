@@ -17,10 +17,10 @@
   background-color: #fff;
 }
 .recipe-title {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   gap: 2rem;
 }
 .recipe-title-main {

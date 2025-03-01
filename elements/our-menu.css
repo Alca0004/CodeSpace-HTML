@@ -1,36 +1,36 @@
 .our-menu {
-  padding-block: 106px;
+  padding-block: 6.625rem;
   background-color: var(--color-white);
 }
 .our-menu-title {
-  font-size: 55px;
+  font-size: 3.4375rem;
   color: var(--color-font);
   text-align: center;
-  margin-block-end: 64px;
+  margin-block-end: 4rem;
   font-weight: 500;
 }
 .our-menu-cards {
   display: flex;
   align-items: flex-start;
-  gap: 24px;
+  gap: 1.5rem;
 }
 .our-menu-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 32px;
+  gap: 2rem;
   background-color: var(--color-tertiary);
-  padding: 37px 34px 30px;
-  border-radius: 12px;
+  padding: 2.3125rem 2.125rem 1.875rem;
+  border-radius: 0.75rem;
 }
 .our-menu-card-title {
   font-family: var(--font-text);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 125%;
   color: var(--color-font);
-  margin-block-end: 16px;
+  margin-block-end: 1rem;
 }
 .our-menu-card-link {
   color: var(--color-primary);
@@ -40,13 +40,13 @@
 
 .our-menu-card-img-content {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 .our-menu-card-img-content::after {
   content: "";
   display: inline-block;
   background-color: rgba(115, 120, 101, 0.2);
-  width: 100px;
+  width: 6.25rem;
   border-radius: 50%;
   aspect-ratio: 1;
   position: absolute;
