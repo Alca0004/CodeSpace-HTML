@@ -32,7 +32,7 @@ This project gave me a solid foundation in using HTML and CSS, helping me to und
 
 ## Demo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bc7b6b38-cec1-4f52-b6bd-bff7dccdd9ad/deploy-status)](aaronsbistrobliss.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bc7b6b38-cec1-4f52-b6bd-bff7dccdd9ad/deploy-status)](https://aaronsbistrobliss.netlify.app)
 
 <img width="1298" alt="demo" src="https://github.com/user-attachments/assets/5ae1e215-280a-44bb-9af2-a9a9c4bbd2c1" />
 
